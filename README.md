@@ -1,5 +1,5 @@
 # minimal-react-ssr-typescript
-a minimal sample of server side rendering using typescript + react
+A minimal sample of server side rendering using typescript + react
 
 
 ## ❯ Getting Started
@@ -20,7 +20,7 @@ Install [Node.js and NPM](https://nodejs.org/en/download/)
 ### Running in dev mode
 
 - Run `yarn start` 
-- The server address will be displayed to you as `http://0.0.0.0:8080`
+- The server address will be displayed to you as `http://0.0.0.0:3000`
 
 ### Building the project and run it
 

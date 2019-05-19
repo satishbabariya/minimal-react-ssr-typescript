@@ -1,0 +1,32 @@
+{
+  "name": "minimal-react-ssr-typescript",
+  "version": "1.0.0",
+  "description": "a minimal sample of server side rendering using typescript + react",
+  "main": "index.ts",
+  "repository": "https://github.com/satishbabariya/minimal-react-ssr-typescript.git",
+  "author": "Satish Babariya <satish.babariya@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build-server": "webpack --config webpack.config.server.js",
+    "build-client": "webpack --config webpack.config.client.js",
+    "build": "yarn run build-client && yarn run build-server",
+    "start": "node dist/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.1",
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "aphrodite": "^2.3.1",
+    "ts-loader": "^6.0.1",
+    "typescript": "^3.4.5",
+    "webpack": "^4.31.0",
+    "webpack-cli": "^3.3.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
