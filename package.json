@@ -22,7 +22,7 @@
     "@types/express": "^4.16.1",
     "@types/react": "^16.8.17",
     "@types/react-dom": "^16.8.4",
-    "aphrodite": "^2.3.1",
+    "aphrodite": "^2.4.0",
     "ts-loader": "^6.0.1",
     "typescript": "^3.4.5",
     "webpack": "^4.31.0",
